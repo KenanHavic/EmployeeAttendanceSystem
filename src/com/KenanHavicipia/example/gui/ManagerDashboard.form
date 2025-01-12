@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.KenanHavicipia.example.gui.ManagerDashboard">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1da46" class="javax.swing.JButton" binding="pregledZaposlenih">
+        <constraints/>
+        <properties>
+          <text value="Pregledaj zaposlene"/>
+        </properties>
+      </component>
+      <component id="cbacc" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="7cf9" class="javax.swing.JButton" binding="odjaviSe">
+        <constraints/>
+        <properties>
+          <text value="Odjavi se"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
